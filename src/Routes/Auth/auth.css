@@ -1,0 +1,119 @@
+.auth-container{
+    text-align: center;
+    margin-top: 4%;
+
+}
+
+.auth-container .logo{
+    margin-top: 10%;
+    margin-bottom: 2%;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.auth-container input[type=text],input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.auth-container .field-icon{
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+
+.auth-container button {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth-container button:hover {
+  background-color:grey;
+}
+
+.auth-container .form-container {
+    width: 350px;
+    display: inline-block;
+}
+
+.auth-container .form-container .forgot-password-link{ 
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.auth-container .form-container .join-now-link {
+    color: black;
+    cursor: pointer;
+    font-weight: light;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.auth-container .form-container .login-link {
+    color: black;
+    cursor: pointer;
+    font-weight: light;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.auth-container .form-container .login-link:hover {
+    text-decoration: underline;
+}
+
+.auth-container .form-container .join-now-link:hover {
+    text-decoration: underline;
+}
+
+.auth-container .brand img{
+    height: 40px;
+    margin: 10px;
+    width: 40px;
+}
+
+.auth-container .brand label{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.auth-container .register-container{
+    margin-top: 10px;
+}
+
+.auth-container .register-container button{
+    display: inline-block;
+    width: 170px;
+    margin: 5px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.auth-container .register-container button:hover label:hover{
+    cursor: pointer;
+}
+
+.auth-container .register-container i{
+    margin-right: 5px;
+    font-size: 17px;
+}
+
+.auth-container .register-container label{
+    margin-left: 5px;
+    font-size: 17px;
+}

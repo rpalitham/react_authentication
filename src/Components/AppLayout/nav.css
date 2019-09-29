@@ -1,0 +1,27 @@
+
+.app-layout-nav img{
+    height: 30px;
+}
+
+.app-layout-nav  p{
+    letter-spacing: 0.5px;
+    padding: 6px;
+    font-weight: bold;
+}
+
+.app-layout-nav{
+    display: flex;
+    min-height: 8vh;
+    float: right
+}
+
+.app-layout-nav .icons-container{
+    padding-top: 10px;
+    margin-right: 50px;
+    display: inline-flex;
+}
+
+.app-layout-nav i{
+   margin-left: 15px;
+   font-size: 25px;
+}

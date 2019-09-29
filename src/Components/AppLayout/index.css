@@ -1,0 +1,49 @@
+.app-layout-container{
+    display: flex;
+}
+
+.app-layout-container .left-container{
+    width: 18%;
+    height: 100vh;
+    background-color:  #72696929;
+}
+
+
+.app-layout-container .right-container{
+    width: 82%;
+    height: 100vh;
+    background-color: #f1e2e224;
+}
+
+.app-layout-container .left-container .profile-container{
+    padding: 5%;
+    height: 30%;
+    text-align: center;
+}
+
+.app-layout-container .left-container .profile-container .profile-icon{
+    font-size: 80px;
+    padding: 10%;
+}
+
+.app-layout-container .left-container .profile-container .profile-name{
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.app-layout-container .left-container .options-container div{
+    padding : 6%;
+    margin-left: 3px;
+}
+
+.app-layout-container .left-container .options-container div:hover{
+    border-left: 2px solid black;
+}
+
+.app-layout-container .left-container .options-container label{
+    margin-left: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
